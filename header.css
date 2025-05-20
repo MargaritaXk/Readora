@@ -1,0 +1,130 @@
+header{
+    display: flex;
+    background-color: #f7f9ca ;
+    height: 38px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    justify-content: space-around;
+    margin-bottom: 500px;
+}
+.naviguateur1{
+    /* background-color: blue; */
+    min-width: 150px;
+    flex: 1 1 200px;
+    position: relative;
+    color: 'Neue Hass Unica Regular',serif;
+}
+.naviguateur1 ul{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    column-gap: 20px;
+    padding: 0;
+    flex: 1 0 100px;
+    position: absolute;
+    margin: 0 0 0 20px;
+    left: 0;
+    transform: translateY(50%);
+    
+    /* background-color: blueviolet; */
+
+}
+.naviguateur1 ul li{
+    list-style: none;
+    /* background-color: green; */
+    width: fit-content;
+    margin: 0;
+}
+.naviguateur1 ul li a{ 
+    
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    
+    /* background-color: pink; */
+}
+.title_webSite{
+    display: block;
+    position: relative;
+    flex: 1 1 200px;
+    min-width: 150px;
+    color: black;
+    /* background-color: red; */
+    margin: 0;
+    width: fit-content;
+}
+.title_webSite .title{
+    color: rgb(80, 81, 52);
+    font: size 2000px; ;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin: 0;
+    /* background-color: aquamarine; */
+    width: max-content;
+    font-family: 'Neue Hass Unica Regular';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+/* @font-face {
+    font-family: 'Ogg TRIAL';
+    src: url('../fonts/Ogg-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+  
+.naviguateur2{
+    position: relative;
+    flex: 1 1 200px;
+    min-width: 210px;
+}
+.naviguateur2 .nav_bar{
+    position: absolute;
+    right: 0;
+    transform: translateY(50%);
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+    justify-content: center;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+.naviguateur2 .nav_bar li{
+    list-style: none;
+    width: fit-content;
+}
+.naviguateur2 .nav_bar li a i{
+    color: rgb(110, 111, 70);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

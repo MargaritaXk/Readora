@@ -1,0 +1,150 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: brown  !important;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 60px 100px 60px;
+    box-sizing: border-box;
+    transition-property: flex;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+footer .feedback{
+    display: flex;
+    flex: 1 1 500px;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 2px;
+    background-color: #000000;
+    max-width: 327px;
+    height: fit-content;
+    transition: all 0.3s ease-in-out; 
+}
+.feedback div{
+    box-sizing: border-box;
+    display: inline-block;
+    width: fit-content;
+    margin-left:130px ;
+    margin-bottom: 20px;
+    
+}
+footer .feedback .buttons button{
+    padding-top: 2px ;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    padding-bottom: 2px ;
+    border-radius: 5px ;
+    border: none;
+}
+
+footer .feedback label input{
+    border-radius: 30px;
+    width: 300px;
+    height: 28px;
+    padding-left: 20px;
+    border: none;
+    background: transparent;
+    
+}
+footer .feedback label input:focus{
+    box-shadow: none;
+    outline: none;
+    color: white;
+}
+footer .feedback label input::placeholder{
+    box-shadow: none;
+    color: white;
+    
+}
+
+footer .feedback label textarea{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 300px;
+    height: 90px;
+    border-radius: 30px;
+    border-color: white;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+
+}
+footer .feedback label textarea:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: white;
+}
+footer .feedback label textarea::placeholder{
+    color: white;
+    box-shadow: none;
+}
+/* footer .feedback .buttons{
+
+} */
+
+/* section categories customer sercice aka CS termes & Policies aka policy language */
+.sect3{
+    margin-left: 0 !important;
+}
+.sect23{
+    margin: 0 0 0 50px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    justify-content: space-around;
+    flex-shrink: unset;
+}
+
+
+.categories{
+    list-style: none;
+    padding-left: 0;
+}
+.CS{
+    margin-bottom: 50px;
+}
+.category{
+    margin-bottom: 50px;
+}
+.policy{
+    margin-bottom: 50px;
+    
+}
+.policy .policies{
+    list-style: none;
+    padding-left: 0;
+}
+.policy .policies li a{
+    color: #000000;
+    text-decoration: none;
+    
+}
+.CS .service-contact {
+    list-style: none;
+    padding-left: 0;
+}
+.social{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    
+}
+.social li a i{
+    color: rgb(80, 81, 52);
+    font-size: 30px;
+}
+/* .cat{
+
+} */
