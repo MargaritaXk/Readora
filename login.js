@@ -24,7 +24,7 @@ loginButton.addEventListener("click",()=>{
     loginForm.classList.add("active");
     signUpForm.classList.add("hidden");
     topCover.style.height = '151px';
-    bottomCover.style.height = '521px';
+    bottomCover.style.height = '520px';
     signUpButton.style.backgroundColor = ' transparent';
     loginButton.style.backgroundColor = ' #E4F2EA';
 
@@ -42,7 +42,7 @@ Logina.addEventListener("click",()=>{
     signUpForm.classList.add("hidden");
 
     topCover.style.height = '151px';
-    bottomCover.style.height = '521px';
+    bottomCover.style.height = '520px';
     signUpButton.style.backgroundColor = ' transparent';
     loginButton.style.backgroundColor = ' #E4F2EA';
 
@@ -61,7 +61,7 @@ signUpButton.addEventListener("click",()=>{
     loginForm.classList.add("hidden");
 
     topCover.style.height = '221px';
-    bottomCover.style.height = '451px';
+    bottomCover.style.height = '450px';
     topCover.style.borderRadius = '25px';
     signUpButton.style.backgroundColor = '#E4F2EA';
     loginButton.style.backgroundColor = 'transparent';
@@ -81,7 +81,7 @@ signUpa.addEventListener("click",()=>{
     loginForm.classList.add("hidden");
 
     topCover.style.height = '221px';
-    bottomCover.style.height = '451px';
+    bottomCover.style.height = '450px';
     topCover.style.borderRadius = '25px';
     signUpButton.style.backgroundColor = '#E4F2EA';
     loginButton.style.backgroundColor = 'transparent';
