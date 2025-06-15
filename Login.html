@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/login.css">
+    <title>Login - Readora</title>
+</head>
+<body>
+    <section class="container">
+        <!-- <div class="logo">
+            <div class="book b1"></div>
+            <div class="book b2"></div>
+            <div class="book b3"></div>
+            <div class="book b4"></div>
+            <div class="book b5"></div>
+        </div> -->
+        <form action="post" class="Login" id="loginForm">
+            <h1>Login</h1>
+            <div class="user-infos">
+                <input type="email" name="email" id="Email-user" placeholder="Enter Your Email..." required class="input">
+                <input type="password" name="password" id="password" placeholder="Password..." required class="input">
+            </div>
+            <a href="#">Forgot your password?</a>
+            <div class="submit-infos">
+                <button type="submit">Login</button>
+                <p>You don't have an account? &nbsp; <a href="#" id="signUpa">Sign Up</a></p>
+            </div>
+        
+        </form>
+        <form action="post" class="SignUp hidden" id="signUpForm">
+            <h1>Sign Up</h1>
+            <div class="user-infos">
+                <div class="box">
+                    <div class="name">
+                        <label for="name"> Full name: </label>
+                        <input type="text" placeholder="Your Name..." name="name" id="name" required class="input">
+                    </div>
+                    <div class="username">
+                        <label for="username"> Username: </label>
+                        <input type="text" placeholder="Your username..." name="username" id="username" required class="input">
+                    </div>
+                    
+                </div>
+                <!-- <div class="gender">
+                    <label for="gender">Gender:</label>
+                    <select  name="Gender" id="gender">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3" selected>Rather not to say</option>
+                    </select>
+                </div> -->
+                <div class="email">
+                    <label for="email"> Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email..." required class="input">
+                </div>
+                <div class="box">
+                    <div class="pass">
+                        <label for="password"> Password: </label>
+                    <input type="password" name="password" id="password" placeholder="Password..." required class="input">
+                    </div>
+                    <div class="confirmpass">
+                        <label for="confirm-password"> Confirm Password: </label>
+                        <input type="password" name="password?" id="confirm-password" placeholder="Confirm your password..." required class="input">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="submit-infos">
+                <button type="submit">Sign Up</button>
+                <p>You have already an account? &nbsp; <a href="#" id="logina">Login</a></p>
+            </div>
+        
+        </form>
+        <div class="cover" id="cover">
+            <div class="top-cover" id="top-cover"></div>
+            <div class="mid-cover" id="mid-cover"></div>
+            <div class="bottom-cover" id="bottom-cover"></div>
+            <a href="#" id="login">Login</a>
+            <a href="#" id="signUp">Sign Up</a>
+        </div>
+    </section>
+    <script src="../js/login.js"></script>
+</body>
+</html>
